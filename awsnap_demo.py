@@ -1,4 +1,3 @@
-import logging
 import tornado.escape
 import tornado.ioloop
 import tornado.options
@@ -7,9 +6,7 @@ import tornado.websocket
 import os.path
 import uuid
 import datetime
-import json
 from tornado.options import define, options
-import random
 import time
 
 define("port", default=8888, help="run on the given port", type=int)
